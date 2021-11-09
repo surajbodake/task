@@ -1,0 +1,6 @@
+task.admin_settings:
+  title: 'Task module settings'
+  description: 'Configure the settings of task module'
+  parent: system.admin_config_regional
+  route_name: task.admin_settings
+  weight: 100

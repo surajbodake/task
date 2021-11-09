@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Task module.
+ */
+
+/**
+ * Implements hook_themes().
+ *
+ * Define custom template for rendering the Country, City and timezone.
+ */
+function task_theme($existing, $type, $theme, $path) {
+  return [
+    'task_block' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'timezone' => NULL,
+      ],
+    ],
+  ];
+}

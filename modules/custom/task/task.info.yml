@@ -1,0 +1,6 @@
+name: Task
+type: module
+description: A module to perform the assignment.
+core_version_requirement: ^8.9 || ^9
+package: Custom
+configure: task.admin_settings
